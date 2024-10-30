@@ -1,0 +1,398 @@
+# Copyright (C) 2022 oacstudio
+# This file is distributed under the same license as the Mailtree Log Mail plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mailtree Log Mail 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mailtree\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-11T14:17:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: mailtree\n"
+
+#. Plugin Name of the plugin
+msgid "Mailtree Log Mail"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/mailtree-log-mail/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A solid mail logger with REST API support and auto export."
+msgstr ""
+
+#. Author of the plugin
+msgid "oacstudio"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://oacstudio.de/"
+msgstr ""
+
+#: mailtree.php:28
+#: mailtree/mailtree.php:28
+#: mailtree/src/Bootstrap.php:97
+#: src/Bootstrap.php:97
+msgid "Settings"
+msgstr ""
+
+#: mailtree/src/CronManager.php:92
+#: src/CronManager.php:92
+msgid "Mailtree Weekly"
+msgstr ""
+
+#: mailtree/src/CronManager.php:97
+#: src/CronManager.php:97
+msgid "Mailtree monthly"
+msgstr ""
+
+#: mailtree/src/GeneralHelper.php:230
+#: src/GeneralHelper.php:230
+msgctxt "%s = human-readable time difference"
+msgid "%s"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:60
+#: src/MailAdminTable.php:60
+msgid "More Info"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:68
+#: mailtree/src/Views/NewMessageModal.php:25
+#: src/MailAdminTable.php:68
+#: src/Views/NewMessageModal.php:25
+msgid "To"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:69
+#: mailtree/src/Views/NewMessageModal.php:41
+#: src/MailAdminTable.php:69
+#: src/Views/NewMessageModal.php:41
+msgid "Subject"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:71
+#: src/MailAdminTable.php:71
+msgid "Sent"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:81
+#: mailtree/src/MailAdminTable.php:121
+#: src/MailAdminTable.php:81
+#: src/MailAdminTable.php:121
+msgid "Delete"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:82
+#: mailtree/src/MailAdminTable.php:122
+#: src/MailAdminTable.php:82
+#: src/MailAdminTable.php:122
+msgid "Resend"
+msgstr ""
+
+#: mailtree/src/MailAdminTable.php:83
+#: mailtree/src/MailAdminTable.php:123
+#: src/MailAdminTable.php:83
+#: src/MailAdminTable.php:123
+msgid "Download CSV"
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:11
+#: src/Views/ExportWarningDialog.php:11
+msgid "Warning"
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:15
+#: src/Views/ExportWarningDialog.php:15
+msgid ""
+"You are trying to export <strong>%s</strong> messages when the recommended limit is no more than <strong>%s</strong>,\n"
+"                                           this can cause the server to timeout before the export is complete, we recommend reducing the amount of messages exported, or exporting them in batches."
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:29
+#: src/Views/ExportWarningDialog.php:29
+msgid "Number of logs to export"
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:41
+#: src/Views/ExportWarningDialog.php:41
+msgid "Batch number"
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:48
+#: src/Views/ExportWarningDialog.php:48
+msgid "This will export messages <strong>%s-%s</strong>"
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:63
+#: src/Views/ExportWarningDialog.php:63
+msgid "Export"
+msgstr ""
+
+#: mailtree/src/Views/ExportWarningDialog.php:66
+#: src/Views/ExportWarningDialog.php:66
+msgid "Cancel"
+msgstr ""
+
+#: mailtree/src/Views/Footer.php:9
+#: src/Views/Footer.php:9
+msgid "Need help? Get support."
+msgstr ""
+
+#: mailtree/src/Views/Footer.php:13
+#: src/Views/Footer.php:13
+msgid "Useful? Please rate this"
+msgstr ""
+
+#: mailtree/src/Views/Log.php:19
+#: src/Views/Log.php:19
+msgid "Mailtree - Logs"
+msgstr ""
+
+#: mailtree/src/Views/Log.php:25
+#: src/Views/Log.php:25
+msgid "You have <strong>over %s</strong> messages stored and <a href=\"%s\">auto-delete is disabled</a>. As a result your database can become very large, please either allow auto-delete or delete some logs."
+msgstr ""
+
+#: mailtree/src/Views/Log.php:43
+#: mailtree/src/Views/Log.php:48
+#: src/Views/Log.php:43
+#: src/Views/Log.php:48
+msgid "Download CSV of all messages"
+msgstr ""
+
+#: mailtree/src/Views/Log.php:57
+#: src/Views/Log.php:57
+msgid "All"
+msgstr ""
+
+#: mailtree/src/Views/Log.php:63
+#: src/Views/Log.php:63
+msgid "Successful"
+msgstr ""
+
+#: mailtree/src/Views/Log.php:69
+#: src/Views/Log.php:69
+msgid "Failed"
+msgstr ""
+
+#: mailtree/src/Views/Log.php:75
+#: src/Views/Log.php:75
+msgid "Search Logs"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:11
+#: mailtree/src/Views/NewMessageModal.php:66
+#: src/Views/LogModal.php:11
+#: src/Views/NewMessageModal.php:66
+msgid "Message"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:12
+#: src/Views/LogModal.php:12
+msgid "Detail"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:13
+#: src/Views/LogModal.php:13
+msgid "Debug"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:23
+#: src/Views/LogModal.php:23
+msgid "There aren't any details to show!"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:27
+#: mailtree/src/Views/NewMessageModal.php:47
+#: src/Views/LogModal.php:27
+#: src/Views/NewMessageModal.php:47
+msgid "Attachments"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:52
+#: src/Views/LogModal.php:52
+msgid "No additional details to show"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:54
+#: src/Views/LogModal.php:54
+msgid "Additional Headers"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:67
+#: src/Views/LogModal.php:67
+msgid "Triggered from:"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:68
+#: src/Views/LogModal.php:68
+msgid "On line:"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:69
+#: src/Views/LogModal.php:69
+msgid "Sent at:"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:73
+#: src/Views/LogModal.php:73
+msgid "Errors:"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:81
+#: src/Views/LogModal.php:81
+msgid "HTML Code"
+msgstr ""
+
+#: mailtree/src/Views/LogModal.php:88
+#: mailtree/src/Views/NewMessageModal.php:82
+#: src/Views/LogModal.php:88
+#: src/Views/NewMessageModal.php:82
+msgid "Close"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:11
+#: src/Views/NewMessageModal.php:11
+msgid "Headers"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:26
+#: src/Views/NewMessageModal.php:26
+msgid "Cc"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:27
+#: src/Views/NewMessageModal.php:27
+msgid "Bcc"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:28
+#: src/Views/NewMessageModal.php:28
+msgid "From"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:29
+#: src/Views/NewMessageModal.php:29
+msgid "Custom"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:38
+#: src/Views/NewMessageModal.php:38
+msgid "Is HTML email?"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:60
+#: src/Views/NewMessageModal.php:60
+msgid "Add Attachments"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:69
+#: src/Views/NewMessageModal.php:69
+msgid "My Message"
+msgstr ""
+
+#: mailtree/src/Views/NewMessageModal.php:79
+#: src/Views/NewMessageModal.php:79
+msgid "Send Message"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:19
+#: src/Views/Settings.php:19
+msgid "Settings were successfully updated!"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:25
+#: src/Views/Settings.php:25
+msgid "You didn't change any settings"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:31
+#: src/Views/Settings.php:31
+msgid "Mailtree - Settings"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:40
+#: src/Views/Settings.php:40
+msgid "User capability needed to see logs (and access REST API endpoints)"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:56
+#: src/Views/Settings.php:56
+msgid "User capability needed to edit settings"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:72
+#: src/Views/Settings.php:72
+msgid "Auto delete logs?"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:80
+#: src/Views/Settings.php:80
+msgid "No"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:88
+#: src/Views/Settings.php:88
+msgid "Yes"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:102
+#: src/Views/Settings.php:102
+msgid "Will next run in: %s."
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:106
+#: src/Views/Settings.php:106
+msgid "Logs can quickly take up much database space. Purge or export regularily. Or use <br><a href=\"#\" target=\"_blank\">another WordPress site</a> for saving log entries externally."
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:115
+#: src/Views/Settings.php:115
+msgid "Enable Backup to another WordPress"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:121
+#: src/Views/Settings.php:121
+msgid "Send your log entries to another WordPress site? This must be active otherwise the credentials will be ignored."
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:128
+#: src/Views/Settings.php:128
+msgid "WordPress User"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:134
+#: src/Views/Settings.php:134
+msgid "The WordPress username of your site."
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:140
+#: src/Views/Settings.php:140
+msgid "WordPress Application Password"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:146
+#: src/Views/Settings.php:146
+msgid "The WordPress Application password of your WordPress site user."
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:153
+#: src/Views/Settings.php:153
+msgid "WordPress site URL"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:159
+#: src/Views/Settings.php:159
+msgid "The WordPress site URL with trailing slash at the end i.e.: https://oacstudio<b style=\"color:red;\">/</b>"
+msgstr ""
+
+#: mailtree/src/Views/Settings.php:166
+#: src/Views/Settings.php:166
+msgid "Save Changes"
+msgstr ""
